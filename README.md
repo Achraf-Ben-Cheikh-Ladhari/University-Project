@@ -4,7 +4,7 @@ The student can see his or her grades and see if he or she fails the year,
 And last but not least, the administrator can add or remove teachers or students on the platform.
 
 ```diff
-@@ 1. Login Interface
+@@ 1. Login Interface @@
 ```
 ![Login Interface](https://raw.githubusercontent.com/Achraf-Ben-Cheikh-Ladhari/Projet-Poly/main/image/poly.png)
                 
