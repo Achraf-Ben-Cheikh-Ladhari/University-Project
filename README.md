@@ -16,13 +16,13 @@ And last but not least, the administrator can add or remove teachers or students
 
 
 ```diff
-@@ 2. Enseignant Interface @@
+@@ 3. Enseignant Interface @@
 ```
 ![Enseignant Interface](https://github.com/Achraf-Ben-Cheikh-Ladhari/Projet-Poly/blob/main/image/polyens.png)
 
 
 ```diff
-@@ 2. Etudiant Interface @@
+@@ 4. Etudiant Interface @@
 ```
 ![Etudiant Interface](https://github.com/Achraf-Ben-Cheikh-Ladhari/Projet-Poly/blob/main/image/polyetudiant.png)
                 
