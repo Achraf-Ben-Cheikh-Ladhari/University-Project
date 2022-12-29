@@ -3,6 +3,12 @@ This project is built to run a university, so the teacher can add grades to the 
 The student can see his or her grades and see if he or she fails the year,
 And last but not least, the administrator can add or remove teachers or students on the platform.
 
-
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 ![Login Interface](https://raw.githubusercontent.com/Achraf-Ben-Cheikh-Ladhari/Projet-Poly/main/image/poly.png)
-                1. Login Interface
+                
