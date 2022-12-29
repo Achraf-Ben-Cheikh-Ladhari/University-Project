@@ -7,4 +7,22 @@ And last but not least, the administrator can add or remove teachers or students
 @@ 1. Login Interface @@
 ```
 ![Login Interface](https://raw.githubusercontent.com/Achraf-Ben-Cheikh-Ladhari/Projet-Poly/main/image/poly.png)
+
+
+```diff
+@@ 2. Admin Interface @@
+```
+![Admin Interface](https://raw.githubusercontent.com/Achraf-Ben-Cheikh-Ladhari/Projet-Poly/main/image/polyadmin.png)
+
+
+```diff
+@@ 2. Enseignant Interface @@
+```
+![Enseignant Interface](https://github.com/Achraf-Ben-Cheikh-Ladhari/Projet-Poly/blob/main/image/polyens.png)
+
+
+```diff
+@@ 2. Etudiant Interface @@
+```
+![Etudiant Interface](https://github.com/Achraf-Ben-Cheikh-Ladhari/Projet-Poly/blob/main/image/polyetudiant.png)
                 
