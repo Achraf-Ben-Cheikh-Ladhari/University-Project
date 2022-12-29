@@ -26,7 +26,7 @@ session_start();?>
             </div>
             <button class="button n e"style="vertical-align:middle" name="envoyer">Ajouter</span></button></form>
             <button class="button n e" style="vertical-align:middle"><a href="./admin.php"><span>Revenir arriere</span></button><br><br><br>
-            <button class="button n e l"style="vertical-align:middle"><a href="../logout.php"><img src="../../image/back.png" class="iconw">&nbsp;Log out</span></button>
+            <button class="button n e l"style="vertical-align:middle"><a href="../logout.php"><img src="../../image/logoutb.png" class="iconw">&nbsp;Log out</span></button>
     </div><br><br><br><br>
     <footer> 
         <p>© Copyright 2022 Polytechnique Sousse. Tous droits réservés.</p>  
@@ -53,16 +53,15 @@ if (isset($_POST["envoyer"])){
     $course=$_POST['course'];
     $un=$_POST['username'];
     try{
-       if ($password!=$mat){
-        $requet3= "insert into courses values
-        ('$course','$mat')";    
-        $ok3=mysqli_query($conn,$requet3);
         $requet= "insert into users values
         ('$un','$mat','2')";
         $requet2= "insert into prof values
         ('$mat','$np')";
+        $requet3= "insert into courses values
+        ('$course','$mat')";
         $ok=mysqli_query($conn,$requet);
-        $ok2=mysqli_query($conn,$requet2);}
+        $ok2=mysqli_query($conn,$requet2);
+        $ok3=mysqli_query($conn,$requet3);
         if ($ok && $ok2 && $ok3){
             $_SESSION['status']="Les données sont insérés !";
             header("location:ajoutens.php");
