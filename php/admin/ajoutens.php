@@ -53,15 +53,16 @@ if (isset($_POST["envoyer"])){
     $course=$_POST['course'];
     $un=$_POST['username'];
     try{
+       if ($password!=$mat){
+        $requet3= "insert into courses values
+        ('$course','$mat')";    
+        $ok3=mysqli_query($conn,$requet3);
         $requet= "insert into users values
         ('$un','$mat','2')";
         $requet2= "insert into prof values
         ('$mat','$np')";
-        $requet3= "insert into courses values
-        ('$course','$mat')";
         $ok=mysqli_query($conn,$requet);
-        $ok2=mysqli_query($conn,$requet2);
-        $ok3=mysqli_query($conn,$requet3);
+        $ok2=mysqli_query($conn,$requet2);}
         if ($ok && $ok2 && $ok3){
             $_SESSION['status']="Les données sont insérés !";
             header("location:ajoutens.php");
